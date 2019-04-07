@@ -1,0 +1,36 @@
+body{
+  padding: 0;
+  margin: 0;
+  background: url(pict/bg.jpg);
+  background-size: cover;
+}
+.kartu{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  width: 900px;
+  margin-top: 140px;
+  margin-left: 300px;
+  margin-bottom: 60px;
+  float: left;
+  z-index: -1;
+}
+.capt h1,p{
+  color: white;
+
+}
+.profil{
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.capt{
+  border: 1px solid white;
+  padding: 10px;
+}
+.profil{
+  transition: transform .5s ease;
+}
+.profil:hover{
+    transform: scale(1.5);
+}
